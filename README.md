@@ -21,14 +21,10 @@ A data-driven analysis of 32 breweries in Asheville, NC to determine which neigh
 
 - [Data](#data)
 - [Methodology](#methodology)
-- [Project Structure](#project-structure)
 - [Key Findings](#key-findings)
 - [Data Limitations](#data-limitations)
-- [How to Reproduce](#how-to-reproduce)
 - [Tools](#tools)
 - [Live Links](#live-links)
-- [Acknowledgements](#acknowledgements)
-
 ---
 
 ## Data
@@ -37,9 +33,9 @@ A data-driven analysis of 32 breweries in Asheville, NC to determine which neigh
 
 | Source | Description |
 |--------|-------------|
-| NC Brewery Excel File | Starting point — 284 rows of NC breweries, filtered to 32 |
+| NC Brewery Excel File | Starting point 284 rows of NC breweries, filtered to 32 |
 | Google Maps | Google ratings and review counts for each brewery |
-| Brewery Websites | `craft_beer_total` — manually counted from each brewery's menu page |
+| Brewery Websites | `craft_beer_total` manually counted from each brewery's menu page |
 | City of Asheville Open Data | City limits boundary shapefile from `gis.ashevillenc.gov` |
 
 **Final columns:** `brewery_name`, `brewery_type`, `neighborhood`, `cluster`, `market_signal`, `saturation_rank`, `city`, `state`, `latitude`, `longitude`, `google_rating`, `google_review_count`, `craft_beer_total`, `beer_menu_tier`, `website_url`, `data_status`
@@ -48,7 +44,7 @@ A data-driven analysis of 32 breweries in Asheville, NC to determine which neigh
 
 ## Methodology
 
-### Step 1 — Data Collection
+### Step 1  Data Collection
 
 Started with a raw NC brewery file containing 284 rows. Filtered down to only breweries physically inside Asheville city limits using verified GPS coordinates and the official city boundary shapefile. Removed closed breweries, venues without a website or active social media, and locations outside the boundary (Salt Face Mule, Whistle Hop, Zillicoah, Riverside Rhapsody, Foggy Mountain). Manually collected `craft_beer_total` from each brewery's website. Final count: 32 active breweries.
 
@@ -66,7 +62,7 @@ Ran SQL queries in Azure Data Studio to verify brewery types, fix one remaining 
 
 ### Step 5 — Geospatial Mapping (ArcGIS Online)
 
-Uploaded 3 GeoJSON files to ArcGIS Online: the city boundary polygon, brewery point locations, and neighborhood zone polygons. Styled brewery dots by neighborhood color and sized them by `google_review_count`. Neighborhood zones are colored by market signal — red for Hypersaturated, orange for Highly Saturated, and green for High Opportunity.
+Uploaded 3 GeoJSON files to ArcGIS Online: the city boundary polygon, brewery point locations, and neighborhood zone polygons. Styled brewery dots by neighborhood color and sized them by `google_review_count`. Neighborhood zones are colored by market signal red for Hypersaturated, orange for Highly Saturated, and green for High Opportunity.
 
 ### Step 6 — Tableau Dashboard
 
@@ -83,58 +79,10 @@ Ran four formal statistical tests:
 
 | Test | Variables | Result | Interpretation |
 |------|-----------|--------|----------------|
-| Correlation | `google_rating` vs `craft_beer_total` | r = −0.013 | No relationship — menu size doesn't affect ratings |
-| ANOVA | `google_rating` by `neighborhood` | p = 0.245 | Not significant — all 7 neighborhoods perform equally |
-| ANOVA | `google_rating` by `brewery_type` | p = 0.107 | Not significant — Taprooms, Brewpubs, and Regional Breweries earn similar ratings |
-| ANOVA | `google_review_count` by `brewery_type` | p = 0.018 ✅ | **Significant** — Regional Breweries average 1,879 reviews vs Taprooms at 434 |
-
----
-
-## Project Structure
-
-```
-avl_brews/
-│
-├── data/
-│   ├── raw/
-│   │   └── asheville_brews.xlsx              # Original 284-row NC brewery file
-│   ├── clean/
-│   │   ├── asheville_breweries_clean.csv      # 32-row cleaned dataset
-│   │   └── asheville_tableau.csv              # Tableau-ready file with derived columns
-│   └── geojson/
-│       ├── asheville_breweries_points.geojson  # 32 brewery point features
-│       └── asheville_neighborhoods.geojson     # 7 neighborhood zone polygons
-│
-├── sql/
-│   ├── create_table.sql                       # DDL for dbo.breweries
-│   └── clean_and_transform.sql                # Neighborhood assignment + clean view
-│
-├── notebooks/
-│   └── transfer_code.ipynb                    # Python → Azure SQL ingestion script
-│
-├── tableau/
-│   └── Asheville_Brewery_Market_Analysis.twb  # Tableau workbook (4-chart dashboard)
-│
-├── screenshots/
-│   ├── tableau_dashboard.png
-│   ├── tableau_south_slope.png
-│   ├── tableau_north_asheville.png
-│   ├── tableau_river_arts.png
-│   ├── tableau_biltmore_park.png
-│   ├── tableau_review_ranking.png
-│   ├── tableau_menu_vs_rating.png
-│   ├── tableau_type_by_neighborhood.png
-│   ├── tableau_neighborhood_performance.png
-│   ├── jmp_correlation_matrix.png
-│   ├── jmp_anova_rating_by_neighborhood.png
-│   ├── jmp_anova_rating_by_neighborhood_tukey.png
-│   ├── jmp_anova_rating_by_type.png
-│   ├── jmp_anova_rating_by_type_plot.png
-│   ├── jmp_anova_reviews_by_type.png
-│   └── jmp_anova_reviews_by_type_plot.png
-│
-└── README.md
-```
+| Correlation | `google_rating` vs `craft_beer_total` | r = −0.013 | No relationship: Menu size doesn't affect ratings |
+| ANOVA | `google_rating` by `neighborhood` | p = 0.245 | Not significant: All 7 neighborhoods perform equally |
+| ANOVA | `google_rating` by `brewery_type` | p = 0.107 | Not significant: Taprooms, Brewpubs, and Regional Breweries earn similar ratings |
+| ANOVA | `google_review_count` by `brewery_type` | p = 0.018 ✅ | **Significant:** Regional Breweries average 1,879 reviews vs Taprooms at 434 |
 
 ---
 
@@ -164,46 +112,8 @@ avl_brews/
 
 - `craft_beer_total` may mix draft beers and canned/bottled inventory because brewery websites don't always separate them
 - Ben's Tune Up and The Brew Pump had no beer menu listed on their websites (recorded as NULL)
-- Sample size is 32 breweries — statistical tests have low power, especially for small groups like Regional Brewery (n = 2)
+- Sample size is 32 breweries statistical tests have low power, especially for small groups like Regional Brewery (n = 2)
 - Google ratings are compressed in a narrow range (4.2–4.9), which limits what statistical tests can detect
-
----
-
-## How to Reproduce
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/your-username/avl_brews.git
-cd avl_brews
-```
-
-**2. Install Python dependencies**
-```bash
-pip install pandas sqlalchemy pyodbc azure-identity scikit-learn
-```
-
-**3. Install ODBC drivers (Mac only)**
-```bash
-brew install unixodbc
-brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
-brew install msodbcsql18
-```
-
-**4. Load data into Azure SQL**
-
-Open `notebooks/transfer_code.ipynb` and update the `SERVER`, `DATABASE`, and CSV path variables. Run the notebook — it will open a browser window for Microsoft Entra authentication.
-
-**5. Run SQL transformations**
-
-Open `sql/clean_and_transform.sql` in Azure Data Studio and execute each block sequentially to add the `neighborhood` column and create the clean view.
-
-**6. Build the Tableau dashboard**
-
-Open `tableau/Asheville_Brewery_Market_Analysis.twb` in Tableau Desktop or Tableau Public. Point the data source to `data/clean/asheville_tableau.csv`.
-
-**7. Upload GeoJSON files to ArcGIS Online**
-
-Upload the three files from `data/geojson/` to an ArcGIS Online map and style according to the `market_signal` and `neighborhood` fields.
 
 ---
 
@@ -228,11 +138,6 @@ Upload the three files from `data/geojson/` to an ArcGIS Online map and style ac
 | Resource | Link |
 |----------|------|
 | ArcGIS Map | [arcg.is/1SOibL1](https://arcg.is/1SOibL1) |
-| Tableau Dashboard | *[Add Tableau Public link here]* |
-| GitHub Repository | *[Add GitHub link here]* |
+| Tableau Dashboard | (https://public.tableau.com/app/profile/marvin.pearson/viz/AshevilleBreweryMarketAnalysis/AshevilleBreweryMarketAnalysis)|
 
 ---
-
-## Acknowledgements
-
-Built as a portfolio project for the M.S. in Data Science & Business Analytics program at **UNC Charlotte**. Special thanks to the DSBA faculty for the tools, access, and guidance that made this project possible.
