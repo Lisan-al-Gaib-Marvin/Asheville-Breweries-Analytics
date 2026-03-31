@@ -1,0 +1,709 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.57502036,
+          35.57834677
+        ]
+      },
+      "properties": {
+        "brewery_name": "Archetype Brewing",
+        "brewery_type": "Taproom",
+        "neighborhood": "West Asheville",
+        "cluster": "Cluster 3: West Asheville",
+        "google_rating": 4.7,
+        "google_review_count": 442,
+        "craft_beer_total": 71,
+        "website_url": "http://www.archetypebrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Archetype Brewing | \u2b50 4.7 | West Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55536533,
+          35.5918439
+        ]
+      },
+      "properties": {
+        "brewery_name": "Asheville Brewing Co",
+        "brewery_type": "Brewpub",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.2,
+        "google_review_count": 969,
+        "craft_beer_total": 13,
+        "website_url": "http://www.ashevillepizza.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Asheville Brewing Co | \u2b50 4.2 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5557692,
+          35.59154634
+        ]
+      },
+      "properties": {
+        "brewery_name": "Ben's Tune Up",
+        "brewery_type": "Brewpub",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.4,
+        "google_review_count": 1524,
+        "craft_beer_total": null,
+        "website_url": "http://www.benstuneup.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Ben's Tune Up | \u2b50 4.4 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55381626,
+          35.58827052
+        ]
+      },
+      "properties": {
+        "brewery_name": "Burial Beer Co. South Slope Taproom",
+        "brewery_type": "Taproom",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.7,
+        "google_review_count": 2181,
+        "craft_beer_total": 20,
+        "website_url": "http://www.burialbeer.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Burial Beer Co. South Slope Taproom | \u2b50 4.7 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.53712284,
+          35.56337245
+        ]
+      },
+      "properties": {
+        "brewery_name": "Burial Beer Co. Forestry Camp Taproom",
+        "brewery_type": "Taproom",
+        "neighborhood": "Biltmore Village",
+        "cluster": "Cluster 2: Biltmore Village",
+        "google_rating": 4.5,
+        "google_review_count": 509,
+        "craft_beer_total": 22,
+        "website_url": "https://www.burialbeer.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Burial Beer Co. Forestry Camp Taproom | \u2b50 4.5 | Biltmore Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5373806,
+          35.56664842
+        ]
+      },
+      "properties": {
+        "brewery_name": "French Broad River Brewery",
+        "brewery_type": "Taproom",
+        "neighborhood": "Biltmore Village",
+        "cluster": "Cluster 2: Biltmore Village",
+        "google_rating": 4.2,
+        "google_review_count": 310,
+        "craft_beer_total": 12,
+        "website_url": "http://www.frenchbroadbrewery.com",
+        "data_status": "ACTIVE",
+        "popup_label": "French Broad River Brewery | \u2b50 4.2 | Biltmore Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55254183,
+          35.58882965
+        ]
+      },
+      "properties": {
+        "brewery_name": "Green Man Brewery",
+        "brewery_type": "Brewpub",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.5,
+        "google_review_count": 1088,
+        "craft_beer_total": 21,
+        "website_url": "http://www.greenmanbrewery.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Green Man Brewery | \u2b50 4.5 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.56594247,
+          35.58287806
+        ]
+      },
+      "properties": {
+        "brewery_name": "Hi-Wire Brewing RAD Beer Garden & Distribution Center",
+        "brewery_type": "Taproom",
+        "neighborhood": "River Arts District",
+        "cluster": "Cluster 4: River Arts District",
+        "google_rating": 4.8,
+        "google_review_count": 217,
+        "craft_beer_total": 24,
+        "website_url": "http://www.hiwirebrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Hi-Wire Brewing RAD Beer Garden & Distribution Center | \u2b50 4.8 | River Arts District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55594086,
+          35.59139802
+        ]
+      },
+      "properties": {
+        "brewery_name": "Hi-Wire Brewing South Slope Brewpub & Gleezy Hot Dogs",
+        "brewery_type": "Brewpub",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.4,
+        "google_review_count": 551,
+        "craft_beer_total": 45,
+        "website_url": "http://www.hiwirebrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Hi-Wire Brewing South Slope Brewpub & Gleezy Hot Dogs | \u2b50 4.4 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.49782192,
+          35.57106256
+        ]
+      },
+      "properties": {
+        "brewery_name": "Highland Brewing Company",
+        "brewery_type": "Regional Brewery",
+        "neighborhood": "East Asheville",
+        "cluster": "Outlier",
+        "google_rating": 4.7,
+        "google_review_count": 1638,
+        "craft_beer_total": 13,
+        "website_url": "http://www.highlandbrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Highland Brewing Company | \u2b50 4.7 | East Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.53711771,
+          35.56526621
+        ]
+      },
+      "properties": {
+        "brewery_name": "Hillman Beer",
+        "brewery_type": "Brewpub",
+        "neighborhood": "Biltmore Village",
+        "cluster": "Cluster 2: Biltmore Village",
+        "google_rating": 4.7,
+        "google_review_count": 1241,
+        "craft_beer_total": 22,
+        "website_url": "http://www.hillmanbeer.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Hillman Beer | \u2b50 4.7 | Biltmore Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.57155377,
+          35.5874257
+        ]
+      },
+      "properties": {
+        "brewery_name": "New Belgium Brewing Co",
+        "brewery_type": "Regional Brewery",
+        "neighborhood": "River Arts District",
+        "cluster": "Cluster 4: River Arts District",
+        "google_rating": 4.7,
+        "google_review_count": 2119,
+        "craft_beer_total": 24,
+        "website_url": "http://www.newbelgium.com",
+        "data_status": "ACTIVE",
+        "popup_label": "New Belgium Brewing Co | \u2b50 4.7 | River Arts District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55220803,
+          35.5949577
+        ]
+      },
+      "properties": {
+        "brewery_name": "One World Brewing",
+        "brewery_type": "Taproom",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.6,
+        "google_review_count": 530,
+        "craft_beer_total": 10,
+        "website_url": "http://www.oneworldbrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "One World Brewing | \u2b50 4.6 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.58894399,
+          35.57912197
+        ]
+      },
+      "properties": {
+        "brewery_name": "Oyster House Brewing Company",
+        "brewery_type": "Brewpub",
+        "neighborhood": "West Asheville",
+        "cluster": "Cluster 3: West Asheville",
+        "google_rating": 4.5,
+        "google_review_count": 457,
+        "craft_beer_total": 7,
+        "website_url": "https://www.oysterhousebeers.com/",
+        "data_status": "ACTIVE",
+        "popup_label": "Oyster House Brewing Company | \u2b50 4.5 | West Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.52203415,
+          35.54283816
+        ]
+      },
+      "properties": {
+        "brewery_name": "Sweeten Creek Brewing",
+        "brewery_type": "Brewpub",
+        "neighborhood": "East Asheville",
+        "cluster": "Outlier",
+        "google_rating": 4.7,
+        "google_review_count": 319,
+        "craft_beer_total": 8,
+        "website_url": "http://www.sweetencreekbrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Sweeten Creek Brewing | \u2b50 4.7 | East Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55522773,
+          35.48661582
+        ]
+      },
+      "properties": {
+        "brewery_name": "Thirsty Monk South at Biltmore Park",
+        "brewery_type": "Brewpub",
+        "neighborhood": "Biltmore Park",
+        "cluster": "Outlier",
+        "google_rating": 4.5,
+        "google_review_count": 536,
+        "craft_beer_total": 16,
+        "website_url": "http://www.monkpub.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Thirsty Monk South at Biltmore Park | \u2b50 4.5 | Biltmore Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55444655,
+          35.58974991
+        ]
+      },
+      "properties": {
+        "brewery_name": "Twin Leaf Brewery",
+        "brewery_type": "Taproom",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.4,
+        "google_review_count": 519,
+        "craft_beer_total": 20,
+        "website_url": "http://www.twinleafbrewery.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Twin Leaf Brewery | \u2b50 4.4 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.56655507,
+          35.58654048
+        ]
+      },
+      "properties": {
+        "brewery_name": "Wedge Brewing Co",
+        "brewery_type": "Taproom",
+        "neighborhood": "River Arts District",
+        "cluster": "Cluster 4: River Arts District",
+        "google_rating": 4.6,
+        "google_review_count": 527,
+        "craft_beer_total": 15,
+        "website_url": "http://www.wedgebrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Wedge Brewing Co | \u2b50 4.6 | River Arts District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.54882984,
+          35.59135269
+        ]
+      },
+      "properties": {
+        "brewery_name": "White Labs Brewing Co - Asheville Kitchen & Tap",
+        "brewery_type": "Brewpub",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.6,
+        "google_review_count": 767,
+        "craft_beer_total": 24,
+        "website_url": "https://www.whitelabs.com/taproom",
+        "data_status": "ACTIVE",
+        "popup_label": "White Labs Brewing Co - Asheville Kitchen & Tap | \u2b50 4.6 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.56337477,
+          35.5883316
+        ]
+      },
+      "properties": {
+        "brewery_name": "The River Arts District Brewing Company (RAD Brewing Co.)",
+        "brewery_type": "Taproom",
+        "neighborhood": "River Arts District",
+        "cluster": "Cluster 4: River Arts District",
+        "google_rating": 4.9,
+        "google_review_count": 130,
+        "craft_beer_total": 14,
+        "website_url": "https://theradbrewco.com/",
+        "data_status": "ACTIVE",
+        "popup_label": "The River Arts District Brewing Company (RAD Brewing Co.) | \u2b50 4.9 | River Arts District"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55102177,
+          35.59189466
+        ]
+      },
+      "properties": {
+        "brewery_name": "Wicked Weed Brewing's Brewpub",
+        "brewery_type": "Brewpub",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.4,
+        "google_review_count": 3638,
+        "craft_beer_total": 22,
+        "website_url": "https://www.wickedweedbrewing.com/location/brewpub/",
+        "data_status": "ACTIVE",
+        "popup_label": "Wicked Weed Brewing's Brewpub | \u2b50 4.4 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55509328,
+          35.58936517
+        ]
+      },
+      "properties": {
+        "brewery_name": "Wicked Weed Funkatorium",
+        "brewery_type": "Brewpub",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.5,
+        "google_review_count": 1493,
+        "craft_beer_total": 32,
+        "website_url": "https://www.wickedweedbrewing.com/location/funkatorium/",
+        "data_status": "ACTIVE",
+        "popup_label": "Wicked Weed Funkatorium | \u2b50 4.5 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55365561,
+          35.5890249
+        ]
+      },
+      "properties": {
+        "brewery_name": "The Whale :: South Slope",
+        "brewery_type": "Taproom",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.5,
+        "google_review_count": 22,
+        "craft_beer_total": 20,
+        "website_url": "https://thewhalecollective.com/",
+        "data_status": "ACTIVE",
+        "popup_label": "The Whale :: South Slope | \u2b50 4.5 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55347383,
+          35.59707446
+        ]
+      },
+      "properties": {
+        "brewery_name": "DSSOLVR",
+        "brewery_type": "Brewpub",
+        "neighborhood": "South Slope",
+        "cluster": "Cluster 1: South Slope",
+        "google_rating": 4.8,
+        "google_review_count": 831,
+        "craft_beer_total": 25,
+        "website_url": "https://dssolvr.com/",
+        "data_status": "ACTIVE",
+        "popup_label": "DSSOLVR | \u2b50 4.8 | South Slope"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.54581921,
+          35.57096619
+        ]
+      },
+      "properties": {
+        "brewery_name": "Hi-Wire Brewing - Biltmore Village",
+        "brewery_type": "Brewpub",
+        "neighborhood": "Biltmore Village",
+        "cluster": "Outlier",
+        "google_rating": 4.7,
+        "google_review_count": 407,
+        "craft_beer_total": 24,
+        "website_url": "http://www.hiwirebrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "Hi-Wire Brewing - Biltmore Village | \u2b50 4.7 | Biltmore Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.57950069,
+          35.57823912
+        ]
+      },
+      "properties": {
+        "brewery_name": "Cellarest Beer Project",
+        "brewery_type": "Taproom",
+        "neighborhood": "West Asheville",
+        "cluster": "Cluster 3: West Asheville",
+        "google_rating": 4.8,
+        "google_review_count": 157,
+        "craft_beer_total": 12,
+        "website_url": "https://cellarestbeer.com/",
+        "data_status": "ACTIVE",
+        "popup_label": "Cellarest Beer Project | \u2b50 4.8 | West Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.60428601,
+          35.58168491
+        ]
+      },
+      "properties": {
+        "brewery_name": "Diatribe Brewing Co.",
+        "brewery_type": "Taproom",
+        "neighborhood": "West Asheville",
+        "cluster": "Outlier",
+        "google_rating": 4.9,
+        "google_review_count": 77,
+        "craft_beer_total": 19,
+        "website_url": "https://diatribebrewing.com/",
+        "data_status": "ACTIVE",
+        "popup_label": "Diatribe Brewing Co. | \u2b50 4.9 | West Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.58458954,
+          35.57853317
+        ]
+      },
+      "properties": {
+        "brewery_name": "One World Brewing West",
+        "brewery_type": "Taproom",
+        "neighborhood": "West Asheville",
+        "cluster": "Cluster 3: West Asheville",
+        "google_rating": 4.6,
+        "google_review_count": 251,
+        "craft_beer_total": 10,
+        "website_url": "http://www.oneworldbrewing.com",
+        "data_status": "ACTIVE",
+        "popup_label": "One World Brewing West | \u2b50 4.6 | West Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5746874,
+          35.61472001
+        ]
+      },
+      "properties": {
+        "brewery_name": "Ginger's Revenge",
+        "brewery_type": "Taproom",
+        "neighborhood": "North Asheville",
+        "cluster": "Outlier",
+        "google_rating": 4.8,
+        "google_review_count": 416,
+        "craft_beer_total": 8,
+        "website_url": "https://gingersrevenge.com/location/tasting-room/#on-tap",
+        "data_status": "ACTIVE",
+        "popup_label": "Ginger's Revenge | \u2b50 4.8 | North Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.59416911,
+          35.57887276
+        ]
+      },
+      "properties": {
+        "brewery_name": "All Sevens Brewing",
+        "brewery_type": "Brewpub",
+        "neighborhood": "West Asheville",
+        "cluster": "Cluster 3: West Asheville",
+        "google_rating": 4.3,
+        "google_review_count": 29,
+        "craft_beer_total": 16,
+        "website_url": "https://www.allsevensbrewing.com/",
+        "data_status": "ACTIVE",
+        "popup_label": "All Sevens Brewing | \u2b50 4.3 | West Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.59397958,
+          35.57818817
+        ]
+      },
+      "properties": {
+        "brewery_name": "The Brew Pump",
+        "brewery_type": "Taproom",
+        "neighborhood": "West Asheville",
+        "cluster": "Cluster 3: West Asheville",
+        "google_rating": 4.6,
+        "google_review_count": 222,
+        "craft_beer_total": null,
+        "website_url": "https://www.instagram.com/thebrewpump/",
+        "data_status": "ACTIVE",
+        "popup_label": "The Brew Pump | \u2b50 4.6 | West Asheville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.55379483,
+          35.62227942
+        ]
+      },
+      "properties": {
+        "brewery_name": "Asheville Pizza & Brewing Co",
+        "brewery_type": "Brewpub",
+        "neighborhood": "North Asheville",
+        "cluster": "Outlier",
+        "google_rating": 4.5,
+        "google_review_count": 3267,
+        "craft_beer_total": 48,
+        "website_url": "https://www.ashevillebrewing.com/",
+        "data_status": "ACTIVE",
+        "popup_label": "Asheville Pizza & Brewing Co | \u2b50 4.5 | North Asheville"
+      }
+    }
+  ]
+}
