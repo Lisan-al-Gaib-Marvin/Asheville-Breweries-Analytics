@@ -1,0 +1,25 @@
+# Sensitive files
+*.twb
+*.twbx
+*.pbix
+.env
+
+# Data files (too large for GitHub — document sources in README instead)
+data/raw/*.csv
+data/clean/*.csv
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
